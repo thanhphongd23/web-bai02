@@ -1,0 +1,77 @@
+.frame {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Logo */
+.title {
+  margin: 20px 0;
+}
+
+/* Menu */
+.menu {
+  background: #d01818;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  margin-top: 20px;
+}
+
+.banner-left {
+  background: #2315a1;
+  color: white;
+  padding: 40px;
+  flex: 1;
+}
+
+.banner-left h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.banner-left p {
+  margin-bottom: 20px;
+}
+
+.banner-left button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.banner-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* About */
+.about {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.about h2 {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.footer div {
+  width: 23%;
+}
